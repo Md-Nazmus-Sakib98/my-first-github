@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    form .info label{
+        display:block;
+        margin-top: 15px;
+    }
+    form .clothes label{
+        text-decoration-color: rgb(172, 114, 28);
+    }
+    </style>
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+  <header>
+        <nav>
+
+            <ul>
+                <li><a href="blogs.html">Home</a></li>
+                 <li><a href="table.html">Our Products</a></li>
+                 <li><a href="form.html">About Us</a></li>
+                 <li><a href="video.html">Privacy Policy</a></li>
+                 <li><a href="banner.html">Banner</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+<body>
+    <head></head>
+    <main>
+        <section>
+            <form>
+              <fieldset class="info">
+                <legend>Basic Info</legend>
+                 <label for="Name">Your Name</label>
+               <input type="text" name="" id="Name">
+               
+               <label for="email">Email Address</label>
+               <input type="text" name="" id="email">
+
+               <label for="phone ">Phone Number</label>
+                <input type="number" name="" id="phone">
+              </fieldset>
+              
+                
+               <fieldset class="clothes">
+                <legend>Clothes Type</legend>
+                    <input type="radio" name="Clothes " id="kurti">
+                    <label for="kurti">Kurti</label>
+                    <input type="radio" name="Clothes" id="jama">
+                    <label for="jama">Jama</label>
+                
+               </fieldset>
+               <br>
+               <br>
+
+               <fieldset>
+                <legend>Color Selection</legend>
+                <input type="checkbox" name="color" id="white">
+                <label for="white">White</label>
+
+                <input type="checkbox" name="color" id="blue">
+                <label for="blue">Blue</label>
+
+                <input type="checkbox" name="color" id="Red">
+                <label for="Red">Red</label>
+               </fieldset>
+               <fieldset>
+                <legend>Comment</legend>
+                <label for="comment">Your Comments Goes here</label>
+                <textarea name="" id="comment"></textarea>
+                
+               </fieldset>
+               <input type="button" value="Submit">
+               <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
